@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDefinedDelegates", "UserDefinedDelegates\UserDefinedDelegates.csproj", "{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{52915E67-D852-42B1-813C-EFCB9692027A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTester", "TheTester\TheTester.csproj", "{58461F55-DEDF-4305-88AD-A340CE3F84F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionDelegates", "ActionDelegates\ActionDelegates.csproj", "{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegates", "FuncDelegates\FuncDelegates.csproj", "{8166B9B3-8A11-4099-B0A2-DBF646520F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateDelegates", "PredicateDelegates\PredicateDelegates.csproj", "{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutEvents", "AboutEvents\AboutEvents.csproj", "{CE096C55-7FD4-459A-8394-8B93C3D30370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52915E67-D852-42B1-813C-EFCB9692027A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52915E67-D852-42B1-813C-EFCB9692027A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52915E67-D852-42B1-813C-EFCB9692027A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52915E67-D852-42B1-813C-EFCB9692027A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58461F55-DEDF-4305-88AD-A340CE3F84F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58461F55-DEDF-4305-88AD-A340CE3F84F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58461F55-DEDF-4305-88AD-A340CE3F84F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58461F55-DEDF-4305-88AD-A340CE3F84F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8166B9B3-8A11-4099-B0A2-DBF646520F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8166B9B3-8A11-4099-B0A2-DBF646520F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8166B9B3-8A11-4099-B0A2-DBF646520F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8166B9B3-8A11-4099-B0A2-DBF646520F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AACAF680-F618-4B08-BCAC-36E6EE98AF3E}
+	EndGlobalSection
+EndGlobal
