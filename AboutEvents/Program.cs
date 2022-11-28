@@ -34,7 +34,19 @@ namespace AboutEvents
         {
             Console.WriteLine("About events...");
 
-            // Create a new alarm
+            var video = new Video()
+            {
+                Title = "Star Wars Andor"
+            };
+            var videoEncoder = new VideoEncoder(); //Publisher
+            var mailService = new MailService(); //Subscriber
+            var smsService = new SMSService(); //Subscriber
+
+            videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
+            videoEncoder.VideoEncoded += smsService.OnVideoEncoded;
+            videoEncoder.Encode(video);
+
+            // Create an alarm
             Alarm alarm = new Alarm();
             // Connect the two listener methods
             alarm.OnAlarmRaised += AlarmListener1;
