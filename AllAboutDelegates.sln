@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDefinedDelegates", "UserDefinedDelegates\UserDefinedDelegates.csproj", "{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserDefinedDelegates", "UserDefinedDelegates\UserDefinedDelegates.csproj", "{D76BC948-0157-4E55-91AB-8C8BE0BF4C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{52915E67-D852-42B1-813C-EFCB9692027A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{52915E67-D852-42B1-813C-EFCB9692027A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTester", "TheTester\TheTester.csproj", "{58461F55-DEDF-4305-88AD-A340CE3F84F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheTester", "TheTester\TheTester.csproj", "{58461F55-DEDF-4305-88AD-A340CE3F84F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionDelegates", "ActionDelegates\ActionDelegates.csproj", "{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionDelegates", "ActionDelegates\ActionDelegates.csproj", "{CAEE47F9-6AE6-46E1-B218-495FBF17ED5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegates", "FuncDelegates\FuncDelegates.csproj", "{8166B9B3-8A11-4099-B0A2-DBF646520F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncDelegates", "FuncDelegates\FuncDelegates.csproj", "{8166B9B3-8A11-4099-B0A2-DBF646520F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateDelegates", "PredicateDelegates\PredicateDelegates.csproj", "{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateDelegates", "PredicateDelegates\PredicateDelegates.csproj", "{1B72E4D3-4505-4DD7-9490-9CA9049F1DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutEvents", "AboutEvents\AboutEvents.csproj", "{CE096C55-7FD4-459A-8394-8B93C3D30370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboutEvents", "AboutEvents\AboutEvents.csproj", "{CE096C55-7FD4-459A-8394-8B93C3D30370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonWithInterfaces", "ComparisonWithInterfaces\ComparisonWithInterfaces.csproj", "{E6EDC7DE-19ED-4BF3-BBFA-8ABB03620619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeMoreExamples", "SomeMoreExamples\SomeMoreExamples.csproj", "{DEFCF574-2830-4AEC-99DB-FB04E9CA77A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE096C55-7FD4-459A-8394-8B93C3D30370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EDC7DE-19ED-4BF3-BBFA-8ABB03620619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EDC7DE-19ED-4BF3-BBFA-8ABB03620619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EDC7DE-19ED-4BF3-BBFA-8ABB03620619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EDC7DE-19ED-4BF3-BBFA-8ABB03620619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFCF574-2830-4AEC-99DB-FB04E9CA77A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFCF574-2830-4AEC-99DB-FB04E9CA77A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFCF574-2830-4AEC-99DB-FB04E9CA77A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFCF574-2830-4AEC-99DB-FB04E9CA77A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
